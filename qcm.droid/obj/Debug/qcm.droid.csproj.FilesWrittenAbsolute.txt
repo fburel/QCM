@@ -1,0 +1,16 @@
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/MonoAndroid,Version=v4.0.3.AssemblyAttribute.cs
+/Users/fl0/Projects/QCM/qcm.droid/bin/Debug/QCM.Portable.dll
+/Users/fl0/Projects/QCM/qcm.droid/bin/Debug/QCM.Portable.dll.mdb
+/Users/fl0/Projects/QCM/qcm.droid/bin/Debug/qcm.droid.dll.mdb
+/Users/fl0/Projects/QCM/qcm.droid/bin/Debug/qcm.droid.dll
+/Users/fl0/Projects/QCM/qcm.droid/bin/Debug/qcm.droid.apk
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/android/bin/qcm.droid.apk
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/res/layout/main.xml
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/res/values/strings.xml
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/res/drawable/icon.png
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/res/drawable-en/icon.png
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/R.cs.flag
+/Users/fl0/Projects/QCM/qcm.droid/bin/Debug/qcm.droid-Signed.apk
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/uploadflags.txt
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/qcm.droid.dll
+/Users/fl0/Projects/QCM/qcm.droid/obj/Debug/qcm.droid.dll.mdb

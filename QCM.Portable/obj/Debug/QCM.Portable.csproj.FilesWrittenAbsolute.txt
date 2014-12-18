@@ -1,0 +1,5 @@
+/Users/fl0/Projects/QCM/QCM.Portable/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/fl0/Projects/QCM/QCM.Portable/bin/Debug/QCM.Portable.dll.mdb
+/Users/fl0/Projects/QCM/QCM.Portable/bin/Debug/QCM.Portable.dll
+/Users/fl0/Projects/QCM/QCM.Portable/obj/Debug/QCM.Portable.dll
+/Users/fl0/Projects/QCM/QCM.Portable/obj/Debug/QCM.Portable.dll.mdb

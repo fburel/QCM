@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Touch View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="QCM_TouchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78">
+                                <rect key="frame" x="16" y="385" width="288" height="183"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGV-Ry-LNR">
+                                        <rect key="frame" x="0.0" y="2" width="288" height="39"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8d-b1-FaW">
+                                        <rect key="frame" x="0.0" y="43" width="288" height="40"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fr7-tz-xb6">
+                                        <rect key="frame" x="0.0" y="126" width="288" height="39"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chx-JK-srZ">
+                                        <rect key="frame" x="0.0" y="85" width="288" height="39"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fr7-tz-xb6" secondAttribute="bottom" constant="18" id="2le-dD-KPy"/>
+                                    <constraint firstAttribute="trailing" secondItem="pGV-Ry-LNR" secondAttribute="trailing" id="6Yi-UH-Ep0"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="width" secondItem="pGV-Ry-LNR" secondAttribute="width" id="6vT-SA-LLo"/>
+                                    <constraint firstItem="Chx-JK-srZ" firstAttribute="top" secondItem="T8d-b1-FaW" secondAttribute="bottom" constant="2" id="8ns-yv-UB1"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="height" secondItem="Chx-JK-srZ" secondAttribute="height" id="90T-em-rMC"/>
+                                    <constraint firstAttribute="trailing" secondItem="fr7-tz-xb6" secondAttribute="trailing" id="9qj-wb-Aob"/>
+                                    <constraint firstItem="fr7-tz-xb6" firstAttribute="leading" secondItem="78" secondAttribute="leading" id="BDi-aq-fGZ"/>
+                                    <constraint firstItem="pGV-Ry-LNR" firstAttribute="leading" secondItem="78" secondAttribute="leading" id="D5s-Mk-pft"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="top" secondItem="pGV-Ry-LNR" secondAttribute="bottom" constant="2" id="GMQ-vN-Xdo"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="leading" secondItem="78" secondAttribute="leading" id="MgI-Tk-C4p"/>
+                                    <constraint firstItem="pGV-Ry-LNR" firstAttribute="top" secondItem="78" secondAttribute="top" constant="2" id="TAD-XY-fIt"/>
+                                    <constraint firstItem="Chx-JK-srZ" firstAttribute="width" secondItem="fr7-tz-xb6" secondAttribute="width" id="Tcd-n5-mEr"/>
+                                    <constraint firstItem="Chx-JK-srZ" firstAttribute="height" secondItem="fr7-tz-xb6" secondAttribute="height" id="Uhd-LQ-KsX"/>
+                                    <constraint firstItem="Chx-JK-srZ" firstAttribute="leading" secondItem="78" secondAttribute="leading" id="db5-6P-k7W"/>
+                                    <constraint firstItem="fr7-tz-xb6" firstAttribute="top" secondItem="Chx-JK-srZ" secondAttribute="bottom" constant="2" id="eZd-yM-qdg"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="width" secondItem="Chx-JK-srZ" secondAttribute="width" id="hVG-Pz-h9d"/>
+                                    <constraint firstAttribute="trailing" secondItem="T8d-b1-FaW" secondAttribute="trailing" id="k5Z-SS-K93"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="top" secondItem="pGV-Ry-LNR" secondAttribute="bottom" constant="2" id="p5A-YX-bwH"/>
+                                    <constraint firstAttribute="trailing" secondItem="Chx-JK-srZ" secondAttribute="trailing" id="vlc-6G-tzY"/>
+                                    <constraint firstItem="fr7-tz-xb6" firstAttribute="top" secondItem="Chx-JK-srZ" secondAttribute="bottom" constant="2" id="xyn-nL-K43"/>
+                                    <constraint firstItem="T8d-b1-FaW" firstAttribute="height" secondItem="pGV-Ry-LNR" secondAttribute="height" id="yVu-4z-1zN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="80">
+                                <rect key="frame" x="16" y="20" width="288" height="365"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4" firstAttribute="top" secondItem="78" secondAttribute="bottom" id="8n8-id-Eb4"/>
+                            <constraint firstItem="80" firstAttribute="top" secondItem="3" secondAttribute="bottom" id="8oy-sn-k9A"/>
+                            <constraint firstItem="78" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="BfI-mE-Pt3"/>
+                            <constraint firstItem="78" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Jmq-XI-I8v"/>
+                            <constraint firstItem="78" firstAttribute="top" secondItem="80" secondAttribute="bottom" id="UYo-d2-A3x"/>
+                            <constraint firstItem="78" firstAttribute="height" secondItem="80" secondAttribute="height" multiplier="0.5" id="X22-SN-AC6"/>
+                            <constraint firstItem="80" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="iie-oD-whX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="80" secondAttribute="trailing" id="pc5-6q-fhJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="-20"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

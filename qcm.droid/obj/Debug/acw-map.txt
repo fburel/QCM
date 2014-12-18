@@ -1,0 +1,2 @@
+qcm.droid.MainActivity;qcm.droid.MainActivity
+qcm.droid.App;qcm.droid.App
